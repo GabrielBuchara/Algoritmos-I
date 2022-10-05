@@ -14,21 +14,22 @@ Inicio
 //Receber o valor
 cont <- 0
 //Condição while
-randi(6)
-enquanto (num <> rand)faça
+aleat <- randi(6)
+enquanto (num <> aleat)faça
 
    escreval("Informe um valor aleatório: ")
    leia(num)
 
-   se(num > rand) entao
+   se(num > aleat) entao
       escreval("O chute foi alto! ")
    senao
-        se (num < rand) entao
+        se (num < aleat) entao
            escreval("O chute foi baixo! ")
-           
+   senao
+        escreval("Parabéns! Você acertou o número! ")
    fimse
         fimse
-        
+
    cont <- cont + 1
 
 fimenquanto
