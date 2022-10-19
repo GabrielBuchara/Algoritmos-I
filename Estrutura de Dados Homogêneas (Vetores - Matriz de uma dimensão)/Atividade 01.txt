@@ -1,0 +1,40 @@
+Atividade 1: Modifique o algoritmo de forma a acrescentar a funcionalidade de contar a quantidade de alunos com média superior à média da 
+classe. Caso nenhum aluno esteja dentro deste critério apresentar uma mensagem de “nenhum aluno teve nota superior à média da classe”.
+
+
+Algoritmo Media_e_maior_nota
+				constante TAM ← 5;
+				//Declaração das variáveis
+				real MDA[TAM]; // declaração de um vetor com 5 posições
+				real MDT,SOMA_MD;
+				inteiro i; // índice do vetor
+				inteiro cont; // variável para contagem 
+	
+				SOMA_MD ← 0;
+		 
+				//Recebendo os valores e armazenando no vetor
+				para i de 1 até TAM faça
+					escreva “Digite a média do aluno”, i, “:”;
+					leia MDA[i]
+					SOMA_MD = SOMA_MD + MDA[i];
+				fimpara
+				//Calculando e escrevendo a média da turma
+				MDT ← SOMA_MD / TAM;
+				escreva “Média da turma: ”, MDT;
+				//Verificando os alunos que tiveram a média maior que a
+				//média da turma
+				cont ← 0; // valor inicial da contagem
+				para i de 1 até TAM faça
+					se (MDA[i] > MDT)
+					então
+					      escreva “Aluno ”, i, “com média:”,MDA[i];
+					      cont← cont+1; // incrementa de 1 a contagem 
+					fimse
+				fimpara
+
+				se(cont > 0)
+					então
+						escreva”Qtd. alunos com med. sup”,cont;
+				senão
+					escreva “Nenhum aluno com med. superior”;
+				fimse		 
