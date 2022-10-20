@@ -25,5 +25,11 @@ para i de 1 ate 10 faça
 
 fimpara
 
+//Mostrando os valores armazenados no vetor
+para i de 1 ate 10 faça
+    escreval(vet[i], "")
+
+fimpara
+
 
 Fimalgoritmo
