@@ -4,7 +4,7 @@ Algoritmo "VET10NEGATIVOS"
 //ser armazenados no vetor.
 
 Var
-// Seção de Declarações das variáveis 
+// Seção de Declarações das variáveis
 vet: vetor [1..10] de inteiro
 val: inteiro;
 i: inteiro;
@@ -17,10 +17,10 @@ para i de 1 ate 10 faça
     leia (val)
 //Condição de recebimento de números negativos (não incluí-los no vetor)
     enquanto (val < 0) faça
-           escreval("Informe um valor: ")
+           escreval("Informe um valor positivo: ")
            leia (val)
     fimenquanto
-    
+
     vet[i] <- val
 
 fimpara
