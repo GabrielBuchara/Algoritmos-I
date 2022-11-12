@@ -20,8 +20,8 @@ maiorVal <- mat[1,1]
 loc_linha <- 1
 loc_coluna <- 1
 
-para i de 1 ate 2 faça
-     para j de 1 ate 2 faça
+para i de 1 ate 10 faça
+     para j de 1 ate 10 faça
           se mat[i,j] > maiorVal entao
              maiorVal <- mat[i,j]
              loc_linha <- i
@@ -42,7 +42,7 @@ fimpara
 escreval("O maior número registrado é:",maiorVal)
 escreval("O maior valor (",maiorVal,") está localizado na L(",loc_linha,") e C(",loc_coluna,")")
 
-     
+
 
 
 
