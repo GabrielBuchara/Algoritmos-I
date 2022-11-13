@@ -11,24 +11,20 @@ Var
 respostas: vetor [1..5, 1..10] de caracter;
 gab: vetor[1..10] de caracter;
 result: vetor [1..10] de inteiro;
-L,C: inteiro;
+l,c: inteiro;
 
 Inicio
 //Receber as respostas dos alunos
  para l de 1 ate 5 faça
       escreval("Informe as respostas do aluno",l,":")
-      para C de 1 ate 10 faça
+      para c de 1 ate 10 faça
       leia (respostas[l,c])
       fimpara
  fimpara
 //Receber as respostas do gabarito
  escreval("Informe as respostas do gabarito: ")
- para C de 1 ate 10 faça
-      enquanto (gab[c] <> "a") ou (gab[c] <> "b") ou (gab[c] <> "c") ou (gab[c] <> "d") faça
+ para c de 1 ate 10 faça
                leia (gab[c])
-      fimenquanto
-//Condição para receber apenas letras a,b,c e d como respostas
-      
  fimpara
 //Condições para validação da nota
  para l de 1 ate 5 faça
