@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "EXERCICIO03"
 // 4- Elaborar um algoritmo que armazene o nome e altura de quinze pessoas com
 // o uso de registros. O algoritmo deve fornecer a manipulação dos dados por
 // meio de um menu que execute as seguintes tarefas.
