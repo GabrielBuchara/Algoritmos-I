@@ -1,0 +1,11 @@
+- 1 questão de registro
+
+-Buscar e achar um elemento específico (vetor)
+
+-Buscar e achar um elemento específico (matriz)
+
+-Exercício de posição de linha e coluna
+
+-Busca e contagem de valores (matriz) 
+	Ex: quantos alunos tiraram nota < que 4?
+-
