@@ -23,8 +23,8 @@ Inicio
  fimpara
 //Receber as respostas do gabarito
  escreval("Informe as respostas do gabarito: ")
- para c de 1 ate 10 faça
-               leia (gab[c])
+ para l de 1 ate 10 faça
+      leia (gab[l])
  fimpara
 //Condições para validação da nota
  para l de 1 ate 5 faça
